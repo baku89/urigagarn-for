@@ -78,6 +78,48 @@ body
 	color white
 	background transparent
 
+.updated-badge
+	position absolute
+	top 1rem
+	right @top
+	text-align center
+	font-size .6rem
+	width 5.5em
+	height @width
+	background white
+	color black
+	border-radius 50%
+	z-index 100
+	cursor pointer
+	uniform-centerize()
+	transition transform .05s ease
+
+	&:hover
+		transform scale(1.1)
+
+	&__date
+		font-size 1.3em
+
+.updated
+	display inline-block
+	font-size .5em
+	background white
+	color black
+	margin-right .7em
+	margin-bottom .2em
+	padding-left .2em
+	padding-right .1em
+	padding-top .3em
+	letter-spacing 0.05em
+	vertical-align middle
+
+.anchor
+	position relative
+	top -1rem
+	width 1px
+	height 1px
+	// background red
+
 .jacket
 	
 	position relative

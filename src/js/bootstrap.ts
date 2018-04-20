@@ -9,6 +9,8 @@ import './polyfill'
 import Scroll from './scroll'
 import {fit, mod, diff} from './utils'
 
+import './smooth-scroll'
+
 // ---- Test
 
 import './modernizr'
